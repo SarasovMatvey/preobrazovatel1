@@ -1,0 +1,15 @@
+{
+    "name": "matvey/bani",
+    "autoload": {
+        "psr-4": {
+            "Matvey\\Bani\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sarasov matvey",
+            "email": "sarasovmatvej@gmail.com"
+        }
+    ],
+    "require": {}
+}
