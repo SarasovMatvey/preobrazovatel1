@@ -11,5 +11,7 @@
             "email": "sarasovmatvej@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.29"
+    }
 }
