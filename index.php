@@ -63,7 +63,6 @@ $values['Ценник'] = array_map(function($value) {
 
 // СЕКЦИЯ: Таблицы с ценами
 $values['Заголовок таблицы'] = $workSheet->getCell('H38')->getValue();
-
 $values['Наименования'] = array_filter(array_map(function($value) {
     return $value[0];
 }, $workSheet->rangeToArray('I38:I999')));
@@ -72,5 +71,30 @@ $values['Перечисление цен'] = array_map(function($value) {
     return $value[0];
 }, $workSheet->rangeToArray("J38:J$c"));
 
-echo json_encode($values, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
+shell_exec('cp -R template/ build/');
 
+$dir  = new RecursiveDirectoryIterator('./build', RecursiveDirectoryIterator::SKIP_DOTS);
+$files = new RecursiveIteratorIterator($dir, RecursiveIteratorIterator::SELF_FIRST);
+/** @var SplFileInfo $fileInfo */
+foreach ($files as $fileInfo) {
+    if ($fileInfo->isDir()) {
+        continue;
+    }
+
+    $file = $fileInfo->openFile('r+w+');
+    $content = $file->fread($file->getSize());
+
+    $newContent = preg_replace_callback_array(
+        [
+            '/\[\[\[\!(.*)]]]/' => function ($match) use ($values) { // match [[[! ]]]
+                return $values[$match[1]];
+            },
+            '/\[\[\[\?(.*)]]]/' => function ($match) use ($values) { // match [[[? ]]]
+                return eval($match[1]);
+            },
+        ],
+        $content
+    );
+
+    $file->fwrite($newContent);
+}

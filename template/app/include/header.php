@@ -76,16 +76,3 @@
 
 </head>
 
-<?php
-//  Уберу фон со служебных страниц и с главной
-$pages_url = ["index","o-kompanii", "rassrochka", "garantii", "portfolio", "oplata-i-vozvrat", "skidki", "dostavka", "vakansii", "kontakty", "faq"];
-if (in_array($XNOW["page"], $pages_url)){
-    ?>
-        <body class="none_bg">
-    <?
-}else{
-    ?>
-        <body>
-    <?
-    }
-?>

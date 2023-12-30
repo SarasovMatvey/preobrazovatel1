@@ -1,0 +1,1260 @@
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1661    7326320   2. SplFileObject->fread($length = 2767) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1663    7326736   2. SplFileObject->fread($length = 57691) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1664    7326736   2. SplFileObject->fread($length = 3032) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1664    7326736   2. SplFileObject->fread($length = 7397) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1665    7326736   2. SplFileObject->fread($length = 2864) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1666    7309488   2. SplFileObject->fread($length = 170) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1666    7309392   2. SplFileObject->fread($length = 1472) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1667    7309680   2. SplFileObject->fread($length = 20348) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1667    7309392   2. SplFileObject->fread($length = 1883) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1670    7344360   2. SplFileObject->fread($length = 35456) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1670    7344360   2. SplFileObject->fread($length = 34520) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1671    7344360   2. SplFileObject->fread($length = 51488) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1671    7344360   2. SplFileObject->fread($length = 50272) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1672    7344280   2. SplFileObject->fread($length = 76003) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1673    7344280   2. SplFileObject->fread($length = 265852) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1674    7344312   2. SplFileObject->fread($length = 60660) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1674    7344360   2. SplFileObject->fread($length = 19496) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1675    7344312   2. SplFileObject->fread($length = 25400) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1675    7344504   2. SplFileObject->fread($length = 41027) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1676    7344360   2. SplFileObject->fread($length = 15400) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1677    7362072   2. SplFileObject->fread($length = 122970) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1678    7361976   2. SplFileObject->fread($length = 133568) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1678    7361976   2. SplFileObject->fread($length = 86041) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1679    7361976   2. SplFileObject->fread($length = 62465) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1679    7362072   2. SplFileObject->fread($length = 87251) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1680    7361976   2. SplFileObject->fread($length = 63600) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1680    7361832   2. SplFileObject->fread($length = 63543) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1681    7362072   2. SplFileObject->fread($length = 70682) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1681    7344376   2. SplFileObject->fread($length = 106944) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1682    7344376   2. SplFileObject->fread($length = 245688) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1682    7344376   2. SplFileObject->fread($length = 316) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1683    7344376   2. SplFileObject->fread($length = 254408) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1683    7344472   2. SplFileObject->fread($length = 52750) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1684    7344424   2. SplFileObject->fread($length = 34910) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1685    7344472   2. SplFileObject->fread($length = 19108) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1686    7344424   2. SplFileObject->fread($length = 217157) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1687    7361800   2. SplFileObject->fread($length = 657) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1687    7361848   2. SplFileObject->fread($length = 729) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1688    7361800   2. SplFileObject->fread($length = 25561) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1690    7361800   2. SplFileObject->fread($length = 330) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1690    7361800   2. SplFileObject->fread($length = 986) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1691    7361800   2. SplFileObject->fread($length = 429) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1691    7361800   2. SplFileObject->fread($length = 314) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1692    7361800   2. SplFileObject->fread($length = 1165) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1693    7361800   2. SplFileObject->fread($length = 510) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1694    7361800   2. SplFileObject->fread($length = 1260) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1695    7361800   2. SplFileObject->fread($length = 371) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1696    7361752   2. SplFileObject->fread($length = 1588) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1696    7361800   2. SplFileObject->fread($length = 162) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1696    7361800   2. SplFileObject->fread($length = 869) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1697    7361800   2. SplFileObject->fread($length = 536) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1699    7361800   2. SplFileObject->fread($length = 2029) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1700    7361800   2. SplFileObject->fread($length = 19043) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1700    7361800   2. SplFileObject->fread($length = 968) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1701    7361800   2. SplFileObject->fread($length = 507) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1701    7361800   2. SplFileObject->fread($length = 1088) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1702    7361800   2. SplFileObject->fread($length = 252) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1702    7361800   2. SplFileObject->fread($length = 16633) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1703    7361848   2. SplFileObject->fread($length = 274) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1703    7361800   2. SplFileObject->fread($length = 692) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1704    7361800   2. SplFileObject->fread($length = 849) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1844    7361800   2. SplFileObject->fread($length = 396) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1845    7361800   2. SplFileObject->fread($length = 470) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1846    7361800   2. SplFileObject->fread($length = 394) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1846    7361800   2. SplFileObject->fread($length = 509) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1847    7361800   2. SplFileObject->fread($length = 674) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1847    7361800   2. SplFileObject->fread($length = 854) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1848    7361800   2. SplFileObject->fread($length = 528) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1849    7344376   2. SplFileObject->fread($length = 29295) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1849    7344568   2. SplFileObject->fread($length = 24046) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1850    7344424   2. SplFileObject->fread($length = 18252) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1851    7344472   2. SplFileObject->fread($length = 17728) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1851    7344568   2. SplFileObject->fread($length = 5613) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1852    7344280   2. SplFileObject->fread($length = 692) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1853    7344232   2. SplFileObject->fread($length = 350826) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1853    7310048   2. SplFileObject->fread($length = 15590) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1854    7309472   2. SplFileObject->fread($length = 105) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1855    7309472   2. SplFileObject->fread($length = 511) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1855    7309520   2. SplFileObject->fread($length = 11526) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1856    7309472   2. SplFileObject->fread($length = 4286) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1857    7309568   2. SplFileObject->fread($length = 2681) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1857    7309520   2. SplFileObject->fread($length = 8207) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1858    7309472   2. SplFileObject->fread($length = 444) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1858    7309472   2. SplFileObject->fread($length = 3708) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1859    7309520   2. SplFileObject->fread($length = 20128) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1919    7309520   2. SplFileObject->fread($length = 3423) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1920    7309520   2. SplFileObject->fread($length = 1062668) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1921    7344208   2. SplFileObject->fread($length = 2767) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1921    7344208   2. SplFileObject->fread($length = 57691) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1922    7344208   2. SplFileObject->fread($length = 3032) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1922    7344208   2. SplFileObject->fread($length = 7397) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1922    7344208   2. SplFileObject->fread($length = 2864) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1923    7326944   2. SplFileObject->fread($length = 170) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1924    7326848   2. SplFileObject->fread($length = 1472) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1924    7327184   2. SplFileObject->fread($length = 20348) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1969    7326848   2. SplFileObject->fread($length = 1883) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1970    7361880   2. SplFileObject->fread($length = 35456) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1970    7361880   2. SplFileObject->fread($length = 34520) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1970    7361880   2. SplFileObject->fread($length = 51488) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1971    7361880   2. SplFileObject->fread($length = 50272) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1971    7361800   2. SplFileObject->fread($length = 76003) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1971    7361800   2. SplFileObject->fread($length = 265852) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1972    7361832   2. SplFileObject->fread($length = 60660) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1972    7361880   2. SplFileObject->fread($length = 19496) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.1972    7361832   2. SplFileObject->fread($length = 25400) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2041    7361976   2. SplFileObject->fread($length = 41027) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2042    7361880   2. SplFileObject->fread($length = 15400) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2043    7379536   2. SplFileObject->fread($length = 122970) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2043    7379536   2. SplFileObject->fread($length = 133568) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2044    7379536   2. SplFileObject->fread($length = 86041) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2044    7379536   2. SplFileObject->fread($length = 62465) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2045    7379536   2. SplFileObject->fread($length = 87251) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2045    7379536   2. SplFileObject->fread($length = 63600) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2046    7379344   2. SplFileObject->fread($length = 63543) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2046    7379536   2. SplFileObject->fread($length = 70682) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2088    7361864   2. SplFileObject->fread($length = 106944) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2088    7361912   2. SplFileObject->fread($length = 245688) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2089    7361864   2. SplFileObject->fread($length = 316) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2089    7361912   2. SplFileObject->fread($length = 254408) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2090    7362008   2. SplFileObject->fread($length = 52750) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2090    7361912   2. SplFileObject->fread($length = 34910) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2091    7362008   2. SplFileObject->fread($length = 19108) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2091    7361912   2. SplFileObject->fread($length = 217157) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2092    7379344   2. SplFileObject->fread($length = 657) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2092    7379440   2. SplFileObject->fread($length = 729) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2093    7379344   2. SplFileObject->fread($length = 25561) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2113    7379344   2. SplFileObject->fread($length = 330) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2114    7379344   2. SplFileObject->fread($length = 986) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2114    7379344   2. SplFileObject->fread($length = 429) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2115    7379344   2. SplFileObject->fread($length = 314) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2115    7379344   2. SplFileObject->fread($length = 1165) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2116    7379344   2. SplFileObject->fread($length = 510) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2116    7379344   2. SplFileObject->fread($length = 1260) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2117    7379344   2. SplFileObject->fread($length = 371) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2117    7379296   2. SplFileObject->fread($length = 1588) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2118    7379344   2. SplFileObject->fread($length = 162) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2118    7379344   2. SplFileObject->fread($length = 869) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2119    7379344   2. SplFileObject->fread($length = 536) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2119    7379440   2. SplFileObject->fread($length = 2029) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2119    7379440   2. SplFileObject->fread($length = 19043) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2120    7379344   2. SplFileObject->fread($length = 968) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2142    7379344   2. SplFileObject->fread($length = 507) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2143    7379344   2. SplFileObject->fread($length = 1088) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2144    7379344   2. SplFileObject->fread($length = 252) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2145    7379344   2. SplFileObject->fread($length = 16633) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2145    7379440   2. SplFileObject->fread($length = 274) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2146    7379344   2. SplFileObject->fread($length = 692) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2146    7379344   2. SplFileObject->fread($length = 849) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2147    7379344   2. SplFileObject->fread($length = 396) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2148    7379344   2. SplFileObject->fread($length = 470) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2148    7379344   2. SplFileObject->fread($length = 394) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2148    7379344   2. SplFileObject->fread($length = 509) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2149    7379344   2. SplFileObject->fread($length = 674) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2149    7379344   2. SplFileObject->fread($length = 854) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2150    7379344   2. SplFileObject->fread($length = 528) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2166    7361912   2. SplFileObject->fread($length = 29295) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2166    7362008   2. SplFileObject->fread($length = 24046) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2167    7361912   2. SplFileObject->fread($length = 18252) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2167    7362008   2. SplFileObject->fread($length = 17728) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2168    7362008   2. SplFileObject->fread($length = 5613) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2168    7361800   2. SplFileObject->fread($length = 692) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2169    7361752   2. SplFileObject->fread($length = 350826) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2169    7327472   2. SplFileObject->fread($length = 15590) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2170    7326944   2. SplFileObject->fread($length = 105) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2170    7326992   2. SplFileObject->fread($length = 511) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2170    7326992   2. SplFileObject->fread($length = 11526) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2171    7326992   2. SplFileObject->fread($length = 4286) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2220    7327040   2. SplFileObject->fread($length = 2681) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2221    7326992   2. SplFileObject->fread($length = 8207) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2221    7326944   2. SplFileObject->fread($length = 444) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2222    7326944   2. SplFileObject->fread($length = 3708) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2222    7326992   2. SplFileObject->fread($length = 20128) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2222    7326992   2. SplFileObject->fread($length = 3423) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2223    7326992   2. SplFileObject->fread($length = 1062668) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2224    7326816   2. SplFileObject->fread($length = 17086) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2225    7326864   2. SplFileObject->fread($length = 145740) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2225    7326768   2. SplFileObject->fread($length = 3800) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2226    7309352   2. SplFileObject->fread($length = 17086) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2252    7309400   2. SplFileObject->fread($length = 145740) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
+
+Notice: SplFileObject::fread(): read of 8192 bytes failed with errno=9 Bad file descriptor in /home/matvey/work/preobr1/preobrazovatel/index.php on line 85
+
+Call Stack:
+    0.0002     716616   1. {main}() /home/matvey/work/preobr1/preobrazovatel/index.php:0
+    0.2252    7309304   2. SplFileObject->fread($length = 3800) /home/matvey/work/preobr1/preobrazovatel/index.php:85
+
