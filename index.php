@@ -5,6 +5,20 @@ use PhpOffice\PhpSpreadsheet\Spreadsheet;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
+const BUILD_DIRECTORY = "build/";
+const RED="\e[41m";
+const GREEN="\e[42m";
+const BLACK="\e[30m";
+const ENDCOLOR="\e[0m";
+
+if (file_exists( BUILD_DIRECTORY )) {
+    echo RED . "Директория " . BUILD_DIRECTORY . " уже существут.\n" . ENDCOLOR;
+    echo RED . "Операция не может быть выполнена так как могут быть потеряны файлы прошлого преобразования.\n" . ENDCOLOR; 
+    echo RED . "Чтобы продолжить - удалите папку " . BUILD_DIRECTORY . " и повторите команду" . ENDCOLOR . "\n";
+
+    exit();
+}
+
 $spreadsheet = new Spreadsheet();
 $spreadsheet = IOFactory::load("excel.xlsx");
 $workSheet = $spreadsheet->getActiveSheet();
@@ -74,8 +88,6 @@ $values['Перечисление цен'] = array_map(function($value) {
     return $value[0];
 }, $workSheet->rangeToArray("J38:J$c"));
 
-// echo json_encode($values, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
-
 shell_exec('rm -rf build/');
 shell_exec('cp -R template/ build/');
 
@@ -117,3 +129,5 @@ foreach ($files as $fileInfo) {
 
     $file->fwrite($newContent);
 }
+
+echo GREEN . BLACK . "Преобразование прошло успешно" . ENDCOLOR . "\n";
