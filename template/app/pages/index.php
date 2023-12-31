@@ -46,7 +46,7 @@
                 <ul class="h1_sub-title">
                     [[[?
                         foreach ($values['Подзаголовки 3 штуки'] as $item) {
-                            echo "<li>$item</li>";
+                            echo "<li>$item</li>\n";
                         }
                     ]]]
                 </ul>
@@ -63,7 +63,7 @@
 </div>
 <!-- 1 ЭКРАН КОНЕЦ-->
     
-    <!-- QUIZ -->
+<!-- QUIZ -->
 <section id="kalkulyator" class="wrapper_small">
     <h2 class="h2">Онлайн <span>калькулятор</span></h2>
     <p class="sub_title mb-80">Выбери что нужно и узнай точную цену уже через 5 минут <span>бесплатно</span></p>
@@ -78,125 +78,80 @@
                     <div class="quiz_content grid-3">
                     
                         [[[?
-                            foreach ($values['Скрины отзывов'] as $item => $i) {
+                            foreach ($values['Ответы (списком в одну ячейку)'][0] as $i => $item) {
+                                $vopros = $values['Вопросы'][0];
                                 echo <<<EOL
                                     <label for="0-$i" class="quiz_content_elem">
-                                        <input type="radio" data-name="quiz_rad_0" name="Какой формы Вам нравятся бани?" id="0-$i"
+                                        <input type="radio" data-name="quiz_rad_0" name="$vopros" id="0-$i"
                                             value="$item">
                                         <span class="img calc_img">
                                             <a href="#" class="remove_link">$item</a>
                                         </span>
                                     </label>
+                                    
                                 EOL;
                             }
                         ]]]
+
                     </div>
                 </div>
                 <div class="quiz_wrap_js">
                     <div class="quiz_zagolovok">
-                        <p>Из какого материала предпочитаете бани бочки ?</p>
+                        <p>[[[? echo $values['Вопросы'][1]; ]]]</p>
                         <span class="quiz_back quiz_back_js"></span>
                     </div>
                     <div class="quiz_content grid-3">
-                        <label for="1-0" class="quiz_content_elem">
-                            <input type="radio" data-name="quiz_rad_2" name="Из какого материала предпочитаете бани бочки ?" id="1-0"
-                                value="Не знаю,нужна консультация">
-                            <span class="img calc_img">
-                                <a href="#" class="remove_link">Не знаю,нужна консультация</a>
-                            </span>
-                        </label>
-        
-                        <label for="1-1" class="quiz_content_elem">
-                            <input type="radio" data-name="quiz_rad_2" name="Из какого материала предпочитаете бани бочки ?" id="1-1"
-                                value="Ель">
-                            <span class="img calc_img">
-                                <a href="#" class="remove_link">Ель</a>
-                            </span>
-                        </label>
-        
-                        <label for="1-2" class="quiz_content_elem">
-                            <input type="radio" data-name="quiz_rad_2" name="Из какого материала предпочитаете бани бочки ?" id="1-2"
-                                value="Кедр">
-                            <span class="img calc_img">
-                                <a href="#" class="remove_link">Кедр</a>
-                            </span>
-                        </label>
-        
-                        <label for="1-3" class="quiz_content_elem">
-                            <input type="radio" data-name="quiz_rad_2" name="Из какого материала предпочитаете бани бочки ?" id="1-3"
-                                value="Сосна">
-                            <span class="img calc_img">
-                                <a href="#" class="remove_link">Сосна</a>
-                            </span>
-                        </label>
-        
-                        <label for="1-4" class="quiz_content_elem">
-                            <input type="radio" data-name="quiz_rad_2" name="Из какого материала предпочитаете бани бочки ?" id="1-4"
-                                value="Липа(при строительстве)">
-                            <span class="img calc_img">
-                                <a href="#" class="remove_link">Липа(при строительстве)</a>
-                            </span>
-                        </label>
-        
-                        <label for="1-5" class="quiz_content_elem">
-                            <input type="radio" data-name="quiz_rad_2" name="Из какого материала предпочитаете бани бочки ?" id="1-5"
-                                value="Осина(при строительстве)">
-                            <span class="img calc_img">
-                                <a href="#" class="remove_link">Осина(при строительстве)</a>
-                            </span>
-                        </label>
+                        [[[?
+                            foreach ($values['Ответы (списком в одну ячейку)'][1] as $i => $item) {
+                                $vopros = $values['Вопросы'][1];
+                                echo <<<EOL
+                                    <label for="1-$i" class="quiz_content_elem">
+                                        <input type="radio" data-name="quiz_rad_2" name="$vopros" id="1-$i"
+                                            value="$item">
+                                        <span class="img calc_img">
+                                            <a href="#" class="remove_link">$item</a>
+                                        </span>
+                                    </label>
+                                    
+                                EOL;
+                            }
+                        ]]]
         
                     </div>
                 </div>
                 <div class="quiz_wrap_js">
                     <div class="quiz_zagolovok">
-                        <p>Напишите адрес вашего объекта</p>
+                        <p>[[[? echo $values['Вопросы'][2]; ]]]</p>
                         <span class="quiz_back quiz_back_js"></span>
                     </div>
                     <div class="quiz_content quiz_text_content">
                         <input class="inp_text area_js" type="text" name="адрес объекта"
-                            placeholder="(Например, СНТ Ромашка)">
+                            placeholder="[[[? echo $values['Ответы (списком в одну ячейку)'][2]; ]]]">
                         <p style="display:none; color: red" class="area_error">Проверьте верность заполнения формы</p>
                         <p class="btn area_js_btn">Далее</p>
                     </div>
                 </div>
                 <div class="quiz_wrap_js">
                     <div class="quiz_zagolovok">
-                        <p>Когда планируете приобрести?</p>
+                        <p>[[[? echo $values['Вопросы'][3]; ]]]</p>
                         <span class="quiz_back quiz_back_js"></span>
                     </div>
                     <div class="quiz_content grid-3">
-                        <label for="3-0" class="quiz_content_elem">
-                            <input type="radio" data-name="quiz_rad_3" name="Когда планируете приобрести?" id="3-0"
-                                value="Сейчас">
-                            <span class="img calc_img">
-                                <a href="#" class="remove_link">Сейчас</a>
-                            </span>
-                        </label>
-        
-                        <label for="3-1" class="quiz_content_elem">
-                            <input type="radio" data-name="quiz_rad_3" name="Когда планируете приобрести?" id="3-1"
-                                value="В течении года">
-                            <span class="img calc_img">
-                                <a href="#" class="remove_link">В течении года</a>
-                            </span>
-                        </label>
-        
-                        <label for="3-2" class="quiz_content_elem">
-                            <input type="radio" data-name="quiz_rad_3" name="Когда планируете приобрести?" id="3-2"
-                                value="От 1 до 2 лет">
-                            <span class="img calc_img">
-                                <a href="#" class="remove_link">От 1 до 2 лет</a>
-                            </span>
-                        </label>
-        
-                        <label for="3-3" class="quiz_content_elem">
-                            <input type="radio" data-name="quiz_rad_3" name="Когда планируете приобрести?" id="3-3"
-                                value="Провожу оценку рынка">
-                            <span class="img calc_img">
-                                <a href="#" class="remove_link">Провожу оценку рынка</a>
-                            </span>
-                        </label>
+                        [[[?
+                            foreach ($values['Ответы (списком в одну ячейку)'][3] as $i => $item) {
+                                $vopros = $values['Вопросы'][3];
+                                echo <<<EOL
+                                    <label for="3-$i" class="quiz_content_elem">
+                                        <input type="radio" data-name="quiz_rad_3" name="$vopros" id="3-$i"
+                                            value="$item">
+                                        <span class="img calc_img">
+                                            <a href="#" class="remove_link">$item</a>
+                                        </span>
+                                    </label>
+                                    
+                                EOL;
+                            }
+                        ]]]
         
                     </div>
                 </div>
@@ -226,10 +181,15 @@
     <div class="filter_content filter_content_js grid-3 mb-80">
 
         [[[?
-            foreach ($values['Заголовки карточек'] as $key => $i) {
+            foreach ($values['Заголовки карточек'] as $i => $key) {
                 $kartinka = $values['Картинка'][$i];
                 $lsi = $values['Описания (LSI)'][$i];
                 $zennik = $values['Ценник'][$i];
+
+                $lsiBlock = "";
+                foreach ($lsi as $lsiItem) {
+                    $lsiBlock .= "<li>$lsiItem</li>" . PHP_EOL;
+                }
                 echo <<<EOL
                 <article itemscope itemtype="https://schema.org/Product" class="filter_content_elem filter_content_elem_js">
                     <span data-fancybox data-src="#zayavka" class="filter_content_elem_name yellow_line_text" itemprop="name">
@@ -244,7 +204,7 @@
                             title="$key">
                     </div>
                     <ul class="-bullits">
-                            <li>$lsi</li>
+                        $lsiBlock
                     </ul>
                     <a href="#kalkulyator" class="-cena">$zennik</a>
                 </article>
@@ -282,7 +242,7 @@
             </tr>            
                   
             [[[?
-                foreach ($values['Наименования'] as $key => $i) {
+                foreach ($values['Наименования'] as $i => $key) {
                     $zena = $values['Перечисление цен'][$i];
                     echo <<<EOL
                         <tr>
@@ -310,7 +270,7 @@
     <div class="otzyvy mb-80">
         <div class="otzyvy_slider otzyvy_slider_js">
             [[[?
-                foreach ($values['Скрины отзывов'] as $item => $i) {
+                foreach ($values['Скрины отзывов'] as $i => $item) {
                     echo <<<EOL
                         <div class="otzyvy_elem_img">
                             <a data-fancybox="отзывы" href="./assets/images/$item">
@@ -331,7 +291,7 @@
     <!-- Портфолио фото слайдер -->
     <div class="portfolio_slider portfolio_slider_js">
         [[[?
-            foreach ($values['Портфолио картинки'] as $item => $i) {
+            foreach ($values['Портфолио картинки'] as $i => $item) {
                 echo <<<EOL
                     <div class="carousel__slide">
                         <div class="portfolio_slider_elem">
@@ -354,7 +314,7 @@
     <!--  БЛОК С ВИДЕО -->
     <div class="portfolio_video">
         [[[?
-            foreach ($values['Портфолио видео'] as $item => $i) {
+            foreach ($values['Портфолио видео'] as $i => $item) {
                 echo <<<EOL
                     <div class="portfolio_video_elem">
                         <video width="100%" controls="controls">
@@ -386,7 +346,6 @@
                             echo "<a href=\"#\">$item</a>";
                         }
                     ]]]
-                    <a href="#">низкие</a><a href="#">скидки</a><a href="#">полукруглая</a><a href="#">из дерева</a><a href="#">шайба</a><a href="#">с круглой крышей</a><a href="#">цилиндр</a><a href="#">большие</a><a href="#">с хозблоком</a><a href="#">вертикальная</a><a href="#">с печкой</a><a href="#">самая маленькая</a><a href="#">под заказ</a><a href="#">продажа</a><a href="#">банная</a><a href="#">бочонок</a><a href="#">цилиндрическая</a><a href="#">чудо</a><a href="#">с пристройкой</a><a href="#">с туалетом</a><a href="#">каталог</a><a href="#">полубочка</a><a href="#">зимняя</a><a href="#">люкс</a><a href="#">парная</a><a href="#">переносные</a><a href="#">перевозная</a><a href="#">компания</a><a href="#">в форме</a><a href="#">эко</a><a href="#">самая дешевая</a><a href="#">финские</a><a href="#">в виде</a><a href="#">доставка</a><a href="#">показать</a><a href="#">смотреть</a><a href="#">из сосны</a><a href="#">кадка</a><a href="#">выставка</a><a href="#">на колесах</a><a href="#">сибирские</a><a href="#">углом</a><a href="#">парна</a><a href="#">утепленная</a><a href="#">для зимы</a><a href="#">изготовление</a><a href="#">стандарт</a><a href="#">экобит</a><a href="#"> на участке</a><a href="#">шестиугольная</a><a href="#">ремонт</a><a href="#">капсульные</a><a href="#">чудо</a><a href="#">акция</a><a href="#">онлайн</a><a href="#">под общей</a><a href="#">кадушка</a><a href="#">проходная</a><a href="#">для воды</a><a href="#">мастер</a><a href="#">квадробаня</a><a href="#">купольные</a>
                 </div>
             </div>
         </div>
@@ -737,11 +696,11 @@
     <div id="vakansii" class="vakansii">
         <div class="vakansii_text">
             <h3 class="vakansii_title h2">Открытые <span>вакансии</span> в нашу скромную команду</h3>
-            <?php 
+            [[[?
                 foreach ($values['Список вакансий (3 штуки)'] as $item) {
                     echo "<span data-fancybox=\"\" data-src=\"#rabota\">$item</span>";
                 }
-            ?>
+            ]]]
             <div class="vakansii_message">
                 <div class="vakansii_message_content">
                     Уточняйте актуальное наличие вакансий по телефону
