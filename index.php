@@ -13,9 +13,6 @@ const GREEN="\e[42m";
 const BLACK="\e[30m";
 const ENDCOLOR="\e[0m";
 
-echo BUILD_DIRECTORY;
-echo BUILD_ARCHIVE_FILE;
-
 if (file_exists(BUILD_DIRECTORY) || file_exists(BUILD_ARCHIVE_FILE)) {
     echo RED . "Директория " . BUILD_DIRECTORY . " или файл " . BUILD_ARCHIVE_FILE . " уже существут.\n" . ENDCOLOR;
     echo RED . "Операция не может быть выполнена так как могут быть потеряны файлы прошлого преобразования.\n" . ENDCOLOR; 
