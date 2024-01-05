@@ -126,7 +126,7 @@
                     </div>
                     <div class="quiz_content quiz_text_content">
                         <input class="inp_text area_js" type="text" name="адрес объекта"
-                            placeholder="[[[? echo $values['Ответы (списком в одну ячейку)'][2]; ]]]">
+                            placeholder="[[[? echo $values['Ответы (списком в одну ячейку)'][2][0]; ]]]">
                         <p style="display:none; color: red" class="area_error">Проверьте верность заполнения формы</p>
                         <p class="btn area_js_btn">Далее</p>
                     </div>
@@ -272,15 +272,17 @@
             [[[?
                 foreach ($values['Скрины отзывов'] as $i => $item) {
                     echo <<<EOL
-                        <div class="otzyvy_elem_img">
-                            <a data-fancybox="отзывы" href="./assets/images/$item">
-                                <img class="lazy" srcset="./assets/images/image.svg"
-                                    data-srcset="./assets/images/$item"
-                                    width="596px" height="190px"
-                                    src="./assets/images/$item"
-                                    alt="Отзыв-$i"
-                                    title="Отзыв-$i">
-                            </a>
+                        <div class="carousel__slide">
+                            <div class="otzyvy_elem_img">
+                                <a data-fancybox="отзывы" href="./assets/images/$item">
+                                    <img class="lazy" srcset="./assets/images/image.svg"
+                                        data-srcset="./assets/images/$item"
+                                        width="596px" height="190px"
+                                        src="./assets/images/$item"
+                                        alt="Отзыв-$i"
+                                        title="Отзыв-$i">
+                                </a>
+                            </div>
                         </div>
                     EOL;
                 }
@@ -407,7 +409,14 @@
              title="С какими городами мы работаем">
              
         <div class="map_cities">
-            <div class="map_cities_content"><div class="map_cities_content_elem">Академический</div><div class="map_cities_content_elem">Алексеевский</div><div class="map_cities_content_elem">Алтуфьевский</div><div class="map_cities_content_elem">Арбат</div><div class="map_cities_content_elem">Аэропорт</div><div class="map_cities_content_elem">Бабушкинский</div><div class="map_cities_content_elem">Басманный</div><div class="map_cities_content_elem">Беговой</div><div class="map_cities_content_elem">Бескудниковский</div><div class="map_cities_content_elem">Бибирево</div><div class="map_cities_content_elem">Богородское</div><div class="map_cities_content_elem">Братеево</div><div class="map_cities_content_elem">Бутырский</div><div class="map_cities_content_elem">Вешняки</div><div class="map_cities_content_elem">Внуково</div><div class="map_cities_content_elem">Войковский</div><div class="map_cities_content_elem">Восточное Бирюлёво</div><div class="map_cities_content_elem">Восточное Дегунино</div><div class="map_cities_content_elem">Восточный</div><div class="map_cities_content_elem">Выхино-Жулебино</div><div class="map_cities_content_elem">Гагаринский</div><div class="map_cities_content_elem">Головинский</div><div class="map_cities_content_elem">Гольяново</div><div class="map_cities_content_elem">Даниловский</div><div class="map_cities_content_elem">Дмитровский</div><div class="map_cities_content_elem">Донской</div><div class="map_cities_content_elem">Дорогомилово</div><div class="map_cities_content_elem">Замоскворечье</div><div class="map_cities_content_elem">Западное Бирюлёво</div><div class="map_cities_content_elem">Западное Дегунино</div><div class="map_cities_content_elem">Зюзино</div><div class="map_cities_content_elem">Зябликово</div><div class="map_cities_content_elem">Ивановское</div><div class="map_cities_content_elem">Измайлово</div><div class="map_cities_content_elem">Капотня</div><div class="map_cities_content_elem">Коньково</div><div class="map_cities_content_elem">Коптево</div><div class="map_cities_content_elem">Косино-Ухтомский</div><div class="map_cities_content_elem">Котловка</div><div class="map_cities_content_elem">Красносельский</div><div class="map_cities_content_elem">Крылатское</div><div class="map_cities_content_elem">Кузьминки</div><div class="map_cities_content_elem">Кунцево</div><div class="map_cities_content_elem">Куркино</div><div class="map_cities_content_elem">Левобережный</div><div class="map_cities_content_elem">Лефортово</div><div class="map_cities_content_elem">Лианозово</div><div class="map_cities_content_elem">Ломоносовский</div><div class="map_cities_content_elem">Лосиноостровский</div><div class="map_cities_content_elem">Люблино</div><div class="map_cities_content_elem">Марфино</div><div class="map_cities_content_elem">Марьина роща</div><div class="map_cities_content_elem">Марьино</div><div class="map_cities_content_elem">Медведково</div><div class="map_cities_content_elem">Метрогородок</div><div class="map_cities_content_elem">Мещанский</div><div class="map_cities_content_elem">Митино</div><div class="map_cities_content_elem">Можайский</div><div class="map_cities_content_elem">Молжаниновский</div><div class="map_cities_content_elem">Москворечье-Сабурово</div><div class="map_cities_content_elem">Нагатино-Садовники</div><div class="map_cities_content_elem">Нагатинский затон</div><div class="map_cities_content_elem">Нагорный</div><div class="map_cities_content_elem">Некрасовка</div><div class="map_cities_content_elem">Нижегородский</div><div class="map_cities_content_elem">Новогиреево</div><div class="map_cities_content_elem">Новокосино</div><div class="map_cities_content_elem">Ново-Переделкино</div><div class="map_cities_content_elem">Обручевский</div><div class="map_cities_content_elem">Останкинский</div><div class="map_cities_content_elem">Отрадное</div><div class="map_cities_content_elem">Очаково-Матвеевское</div><div class="map_cities_content_elem">Перово</div><div class="map_cities_content_elem">Печатники</div><div class="map_cities_content_elem">Покровское-Стрешнево</div><div class="map_cities_content_elem">Преображенское</div><div class="map_cities_content_elem">Пресненский</div><div class="map_cities_content_elem">Проспект Вернадского</div><div class="map_cities_content_elem">Раменки</div><div class="map_cities_content_elem">Ростокино</div><div class="map_cities_content_elem">Рязанский</div><div class="map_cities_content_elem">Савёловский</div><div class="map_cities_content_elem">Свиблово</div><div class="map_cities_content_elem">Северное Бутово</div><div class="map_cities_content_elem">Северное Орехово-Борисово</div><div class="map_cities_content_elem">Северное Тушино</div><div class="map_cities_content_elem">Северное Чертаново</div><div class="map_cities_content_elem">Северный</div><div class="map_cities_content_elem">Сокол</div><div class="map_cities_content_elem">Соколиная гора</div><div class="map_cities_content_elem">Сокольники</div><div class="map_cities_content_elem">Солнцево</div><div class="map_cities_content_elem">Строгино</div><div class="map_cities_content_elem">Таганский</div><div class="map_cities_content_elem">Тверской</div><div class="map_cities_content_elem">Текстильщики</div><div class="map_cities_content_elem">Теплый Стан</div><div class="map_cities_content_elem">Тимирязевский</div><div class="map_cities_content_elem">Тропарёво-Никулино</div><div class="map_cities_content_elem">Филёвский парк</div><div class="map_cities_content_elem">Фили-Давыдково</div><div class="map_cities_content_elem">Хамовники</div><div class="map_cities_content_elem">Ховрино</div><div class="map_cities_content_elem">Хорошёво-Мневники</div><div class="map_cities_content_elem">Хорошёвский</div><div class="map_cities_content_elem">Царицыно</div><div class="map_cities_content_elem">Центральное Чертаново</div><div class="map_cities_content_elem">Черёмушки</div><div class="map_cities_content_elem">Щукино</div><div class="map_cities_content_elem">Южное Бутово</div><div class="map_cities_content_elem">Южное Орехово-Борисово</div><div class="map_cities_content_elem">Южное Тушино</div><div class="map_cities_content_elem">Южное Чертаново</div><div class="map_cities_content_elem">Южнопортовый</div><div class="map_cities_content_elem">Якиманка</div><div class="map_cities_content_elem">Ярославский</div><div class="map_cities_content_elem">Ясенево</div><div class="map_cities_content_elem">ЦАО</div><div class="map_cities_content_elem">САО</div><div class="map_cities_content_elem">СВАО</div><div class="map_cities_content_elem">ВАО</div><div class="map_cities_content_elem">ЮВАО</div><div class="map_cities_content_elem">ЮАО</div><div class="map_cities_content_elem">ЮЗАО</div><div class="map_cities_content_elem">ЗАО</div><div class="map_cities_content_elem">СЗАО</div>                
+            <div class="map_cities_content">
+                [[[?
+                    foreach ($values['Списко гео для карты'] as $key => $value) {
+                        echo <<<EOL
+                            <div class="map_cities_content_elem">$value</div>
+                        EOL;
+                    }
+                ]]]
             </div>
         </div>
     </div>

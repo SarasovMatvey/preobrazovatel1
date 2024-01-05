@@ -4,17 +4,22 @@ use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 
 require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/functions.php';
 
-const BUILD_DIRECTORY = "build/";
+const BUILD_DIRECTORY = "./build";
+const BUILD_ARCHIVE_FILE = "./build.zip";
 const RED="\e[41m";
 const GREEN="\e[42m";
 const BLACK="\e[30m";
 const ENDCOLOR="\e[0m";
 
-if (file_exists( BUILD_DIRECTORY )) {
-    echo RED . "Директория " . BUILD_DIRECTORY . " уже существут.\n" . ENDCOLOR;
+echo BUILD_DIRECTORY;
+echo BUILD_ARCHIVE_FILE;
+
+if (file_exists(BUILD_DIRECTORY) || file_exists(BUILD_ARCHIVE_FILE)) {
+    echo RED . "Директория " . BUILD_DIRECTORY . " или файл " . BUILD_ARCHIVE_FILE . " уже существут.\n" . ENDCOLOR;
     echo RED . "Операция не может быть выполнена так как могут быть потеряны файлы прошлого преобразования.\n" . ENDCOLOR; 
-    echo RED . "Чтобы продолжить - удалите папку " . BUILD_DIRECTORY . " и повторите команду" . ENDCOLOR . "\n";
+    echo RED . "Чтобы продолжить - удалите указанный файл и папку и повторите команду" . ENDCOLOR . "\n";
 
     exit();
 }
@@ -26,67 +31,51 @@ $workSheet = $spreadsheet->getActiveSheet();
 $values = [];
 
 // СЕКЦИЯ: ОБЩИЕ ПЕРЕМЕННЫЕ
-$values['Домен'] = $workSheet->getCell('B1')->getValue();
-$values['Логотип'] = $workSheet->getCell('B2')->getValue();
-$values['Title'] = $workSheet->getCell('B3')->getValue();
-$values['Description'] = $workSheet->getCell('B4')->getValue();
-$values['Заголовок первого экрана'] = $workSheet->getCell('B5')->getValue();
-$values['Подзаголовки 3 штуки'] = explode("\n", $workSheet->getCell('B6')->getValue());
-$values['Картинка главного экрана'] = $workSheet->getCell('B7')->getValue();
-$values['Alt и Title к главной картинке'] = $workSheet->getCell('B8')->getValue();
-$values['Телефон для звонков'] = $workSheet->getCell('B9')->getValue();
-$values['Телефон для вацап'] = $workSheet->getCell('B10')->getValue();
-$values['Список слов для блока "Акция"'] = $workSheet->getCell('B11')->getValue();
-$values['Списко гео для карты'] = $workSheet->getCell('B12')->getValue();
-$values['Карта офиса (скрипт)'] = $workSheet->getCell('B13')->getValue();
-$values['Список вакансий (3 штуки)'] = explode("\n", $workSheet->getCell('B14')->getValue());
-$values['Почта для сбора заявок'] = $workSheet->getCell('B15')->getValue();
-$values['Телеграмм token'] = $workSheet->getCell('B16')->getValue();
-$values['Телеграмм id chat'] = $workSheet->getCell('B17')->getValue();
-$values['Код метрики'] = $workSheet->getCell('B18')->getValue();
-$values['Код гугл'] = $workSheet->getCell('B19')->getValue();
-$values['Код вебмастер'] = $workSheet->getCell('B20')->getValue();
-$values['Скрины отзывов'] = explode("\n", $workSheet->getCell('B21')->getValue());
-$values['Портфолио картинки'] = explode("\n", $workSheet->getCell('B22')->getValue());
-$values['Портфолио видео'] = explode("\n", $workSheet->getCell('B23')->getValue());
-$values['Реквизиты'] = explode("\n", $workSheet->getCell('B24')->getValue());
-$values['Конкуренты'] = explode("\n", $workSheet->getCell('B25')->getValue());
+$values['Домен'] = getSpecificCell($workSheet, 'B1');
+$values['Логотип'] = getSpecificCell($workSheet, 'B2');
+$values['Title'] = getSpecificCell($workSheet, 'B3');
+$values['Description'] = getSpecificCell($workSheet, 'B4');
+$values['Заголовок первого экрана'] = getSpecificCell($workSheet, 'B5');
+$values['Подзаголовки 3 штуки'] = getSpecificCell($workSheet, 'B6', true);
+$values['Картинка главного экрана'] = getSpecificCell($workSheet, 'B7');
+$values['Alt и Title к главной картинке'] = getSpecificCell($workSheet, 'B8');
+$values['Телефон для звонков'] = getSpecificCell($workSheet, 'B9');
+$values['Телефон для вацап'] = getSpecificCell($workSheet, 'B10');
+$values['Список слов для блока "Акция"'] = getSpecificCell($workSheet, 'B11', true);
+$values['Списко гео для карты'] = getSpecificCell($workSheet, 'B12', true);
+$values['Карта офиса (скрипт)'] = getSpecificCell($workSheet, 'B13');
+$values['Список вакансий (3 штуки)'] = getSpecificCell($workSheet, 'B14', true);
+$values['Почта для сбора заявок'] = getSpecificCell($workSheet, 'B15');
+$values['Телеграмм token'] = getSpecificCell($workSheet, 'B16');
+$values['Телеграмм id chat'] = getSpecificCell($workSheet, 'B17');
+$values['Код метрики'] = getSpecificCell($workSheet, 'B18');
+$values['Код гугл'] = getSpecificCell($workSheet, 'B19');
+$values['Код вебмастер'] = getSpecificCell($workSheet, 'B20');
+$values['Скрины отзывов'] = getSpecificCell($workSheet, 'B21', true);
+$values['Портфолио картинки'] = getSpecificCell($workSheet, 'B22', true);
+$values['Портфолио видео'] = getSpecificCell($workSheet, 'B23', true);
+$values['Реквизиты'] = getSpecificCell($workSheet, 'B24', true);
+$values['Конкуренты'] = getSpecificCell($workSheet, 'B25', true);
 
 // СЕКЦИЯ: КВИЗ
-$values['Вопросы'] = array_filter($workSheet->rangeToArray('B28:Z28')[0]);
-$values['Ответы (списком в одну ячейку)'] = array_filter($workSheet->rangeToArray('B29:Z29')[0]);
-$values['Ответы (списком в одну ячейку)'][0] = array_filter(explode("\n", $values['Ответы (списком в одну ячейку)'][0]));
-$values['Ответы (списком в одну ячейку)'][1] = array_filter(explode("\n", $values['Ответы (списком в одну ячейку)'][1]));
-$values['Ответы (списком в одну ячейку)'][3] = array_filter(explode("\n", $values['Ответы (списком в одну ячейку)'][3]));
+$values['Вопросы'] = getCellsFromToRight($workSheet, 'B28');
+$values['Ответы (списком в одну ячейку)'] = getCellsFromToRight($workSheet, 'B29', true);
 
 // СЕКЦИЯ: FAQ
-$values['Список вопросов (6 штук)'] = array_filter($workSheet->rangeToArray('B33:Z33')[0]);
-$values['Список ответов (6 штук)'] = array_filter($workSheet->rangeToArray('B34:Z34')[0]);
+$values['Список вопросов (6 штук)'] = getCellsFromToRight($workSheet, 'B33');
+$values['Список ответов (6 штук)'] = getCellsFromToRight($workSheet, 'B34');
 
 // СЕКЦИЯ: Каталог псевдокатегорий (карточки)
-$values['Заголовки карточек'] = array_filter(array_map(function($value) {
-    return $value[0];
-}, $workSheet->rangeToArray('B38:B999')));
-$c = count($values['Заголовки карточек']) + 38 - 1;
-$values['Картинка'] = array_map(function($value) {
-    return $value[0];
-}, $workSheet->rangeToArray("C38:C$c"));
-$values['Описания (LSI)'] = array_map(function($value) {
-    return array_filter(explode("\n", $value[0]));
-}, $workSheet->rangeToArray("D38:D$c"));
-$values['Ценник'] = array_map(function($value) {
-    return $value[0];
-}, $workSheet->rangeToArray("E38:E$c"));
+$values['Заголовки карточек'] = getCellsFromToBottom($workSheet, 'B38');
+$values['Картинка'] = getCellsFromToBottom($workSheet, 'C38', count($values['Заголовки карточек']));
+$values['Описания (LSI)'] = getCellsFromToBottom($workSheet, 'D38', count($values['Заголовки карточек']), true);
+$values['Ценник'] = getCellsFromToBottom($workSheet, 'E38', count($values['Заголовки карточек']));
 
 // СЕКЦИЯ: Таблицы с ценами
-$values['Заголовок таблицы'] = $workSheet->getCell('H38')->getValue();
-$values['Наименования'] = array_filter(array_map(function($value) {
-    return $value[0];
-}, $workSheet->rangeToArray('I38:I999')));
-$c = count($values['Наименования']) + 38 - 1;
-$values['Перечисление цен'] = array_map(function($value) {
-    return $value[0];
-}, $workSheet->rangeToArray("J38:J$c"));
+$values['Заголовок таблицы'] = getSpecificCell($workSheet, 'H38');
+$values['Наименования'] = getCellsFromToBottom($workSheet, 'I38');
+$values['Перечисление цен'] = getCellsFromToBottom($workSheet, 'J38', count($values['Наименования']));
+
 
 shell_exec('rm -rf build/');
 shell_exec('cp -R template/ build/');
@@ -129,5 +118,7 @@ foreach ($files as $fileInfo) {
 
     $file->fwrite($newContent);
 }
+
+exec("zip -r " . BUILD_ARCHIVE_FILE . ' ' . BUILD_DIRECTORY);
 
 echo GREEN . BLACK . "Преобразование прошло успешно" . ENDCOLOR . "\n";
